@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "rails-tracer"
-  spec.version       = "0.5.0"
+  spec.version       = "0.5.1"
   spec.authors       = ["iaintshine"]
   spec.email         = ["bodziomista@gmail.com"]
 
@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/iaintshine/ruby-rails-tracer"
   spec.license       = "Apache-2.0"
 
-  spec.required_ruby_version = ">= 2.2.0"
+  spec.required_ruby_version = ">= 2.1.5"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
